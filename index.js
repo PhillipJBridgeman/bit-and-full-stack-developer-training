@@ -461,3 +461,14 @@ const people2 = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 people.forEach((person) => {
     ul.innerHTML += `<li style="color: purple">${person}</li>`
 })
+
+// Objects
+/* Objects are custom data type that can store multiple values. Properties are values associated with an object.
+Methods are functions associated with an object. Objects are created using the object literal syntax. */
+let user1 = {
+    name: 'crystal',
+    age: 30,
+    email: 'crystal@thenetninja.co.uk',
+    location: 'berlin',
+    blog: ['why mac & cheese rules', '10 things to make with marmite']
+} 
