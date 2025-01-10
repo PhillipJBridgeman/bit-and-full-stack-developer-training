@@ -218,4 +218,3 @@ console.log(resultConversion, typeof resultConversion); // This will display tru
 
 resultConversion = Boolean(""); // This will save false to the resultConversion variable.
 console.log(resultConversion, typeof resultConversion); // This will display false boolean in the console.
-
