@@ -115,3 +115,5 @@ if (true) {
         var test = "hello"; // This is a global variable.
     }
 }
+console.log("outside code block:", ageScope, nameScope);
+console.log(test); // This will work because var is function scoped.
